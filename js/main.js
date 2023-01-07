@@ -3,10 +3,13 @@ import { getCellElementList,
     getCellElementAtIdx,
     getGameStatusElement } from "./selectors.js";
 import {TURN}from './constants.js';
-console.log(getCellElementList());
-console.log(getCurrentTurnElement());
-console.log(getCellElementAtIdx(4));
-console.log(getGameStatusElement());
+import{ checkGameStatus }from'./utils.js';
+// console.log(checkGameStatus(['X', 'O', 'O', '', 'X', '', '', 'O', 'X']))
+// console.log(checkGameStatus(['X', 'O', 'O', 'X', 'O', 'X', 'O', 'O', 'X']))
+// console.log(getCellElementList());
+// console.log(getCurrentTurnElement());
+// console.log(getCellElementAtIdx(4));
+// console.log(getGameStatusElement());
 /**
  * Global variables
  */
